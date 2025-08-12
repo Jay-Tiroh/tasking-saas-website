@@ -6,14 +6,14 @@ const Info = () => {
     <div className="flex flex-col items-center  max-w-[43rem] w-[90%] text-center ">
       <p className="text-text-inv-low-lgt text-xl">
         <span className="text-text-inv-high-lgt">
-          "Where project management
+          &quot;Where project management
         </span>{" "}
         meets seamless collaboration.{" "}
         <span className="text-text-inv-high-lgt">Streamline your workflow</span>
         , enhance team communication, and{" "}
         <span className="text-text-inv-high-lgt">achieve project success</span>{" "}
         with our <span className="text-text-inv-high-lgt">powerful</span> suite
-        of tools."
+        of tools.&quot;
       </p>
       <Image
         src="/assets/images/divider.svg"
