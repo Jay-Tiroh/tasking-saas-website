@@ -106,3 +106,13 @@ body {
 .nav-links > .active {
   @apply text-text-inv-high-lgt font-medium;
 }
+.nav-menu-links > .active {
+  @apply text-text-inv-high-drk bg-bg-inv-sec-drk font-medium;
+}
+.nav-menu-links > span:not(.active) {
+  @apply transition-colors duration-100 ease-in w-full p-2 hover:bg-white/35 cursor-pointer hover:!text-white;
+}
+
+.inset-shadow {
+  box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.3) inset;
+}

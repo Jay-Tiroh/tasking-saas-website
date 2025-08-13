@@ -8,7 +8,7 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <div className="flex flex-col items-center justify-center pb-10 space-y-10">
+    <div className="flex flex-col items-center justify-center pb-10 space-y-10 overflow-x-hidden">
       <Hero />
       <TrustedBy />
       <Image

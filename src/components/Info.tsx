@@ -3,8 +3,8 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className="flex flex-col items-center  max-w-[43rem] w-[90%] text-center ">
-      <p className="text-text-inv-low-lgt text-xl">
+    <div className="flex flex-col items-center  max-w-[43rem] w-[90%] text-center m-auto ">
+      <p className="text-text-inv-low-lgt text-lg sm:text-xl">
         <span className="text-text-inv-high-lgt">
           &quot;Where project management
         </span>{" "}
@@ -23,14 +23,14 @@ const Info = () => {
         className="m-auto my-20"
       />
       <div className="flex flex-col items-center">
-        <h1 className="text-text-inv-high-lgt text-3xl font-bold mb-2">
+        <h1 className="text-text-inv-high-lgt text-xl sm:text-3xl font-bold mb-2">
           We Covered What You Need
         </h1>
         <p className="text-text-inv-mid-lgt text-xs">
           Main features to support your managing task
         </p>
         <div className="grid  md:grid-cols-6 gap-5 my-5  md:w-[55rem] max-w-[80%]">
-          <div className="md:col-span-2 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md">
+          <div className="md:col-span-2 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md inset-shadow">
             <Image
               src="assets/images/tasks.svg"
               width={200}
@@ -46,7 +46,7 @@ const Info = () => {
               same page.
             </p>
           </div>
-          <div className="md:col-span-4 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md">
+          <div className="md:col-span-4 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md inset-shadow">
             <Image
               src="assets/images/integration.svg"
               width={200}
@@ -61,7 +61,7 @@ const Info = () => {
               Connect with your favorite productivity tools seamlessly.
             </p>
           </div>
-          <div className="md:col-span-4 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md">
+          <div className="md:col-span-4 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md inset-shadow">
             <Image
               src="assets/images/tracking.svg"
               width={200}
@@ -77,7 +77,7 @@ const Info = () => {
               decisions to keep projects on schedule.
             </p>
           </div>
-          <div className="md:col-span-2 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md">
+          <div className="md:col-span-2 flex flex-col gap-2 bg-white/5 justify-center p-3 rounded-md inset-shadow">
             <Image
               src="assets/images/communication.svg"
               width={200}
@@ -103,7 +103,7 @@ const Info = () => {
         className="m-auto my-20"
       />
       <div className="flex flex-col items-center">
-        <h1 className="text-text-inv-high-lgt text-3xl font-bold mb-2 w-[70%] ">
+        <h1 className="text-text-inv-high-lgt text-xl sm:text-3xl font-bold mb-2 w-[70%] ">
           Why Tasking to Managing Your Task?
         </h1>
         <div className="grid md:grid-cols-2 gap-5 my-5 md:w-[55rem] max-w-[80%] ">
