@@ -8,7 +8,7 @@ const Pricing = () => {
           Transparent Pricing Plans
         </h1>
         <p className="text-text-inv-mid-lgt text-sm">
-          Choose a plan that fits your team's needs. No hidden fees, just
+          Choose a plan that fits your team&apos;s needs. No hidden fees, just
           transparent and affordable pricing.
         </p>
         <div className="grid  md:grid-cols-6 gap-5 my-5  md:w-[55rem] max-w-[80%]"></div>
