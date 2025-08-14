@@ -12,7 +12,7 @@ const Hero = () => {
         Efficiency, Collaboration, Success - All in One Place.
       </p>
 
-      <CTA />
+      <CTA txt1="Get Started" txt2="Schedule a Demo" />
       <div className=" w-[80%] max-w-[55rem] my-10">
         <Image
           className="w-full m-auto"

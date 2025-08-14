@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <div className="flex flex-col relative">
+    <div className="flex flex-col relative w-full m-auto">
       <div className="nav w-full h-16 flex items-center justify-between px-4 bg-transparent text-white text-sm max-w-[75rem] m-auto">
         <span>
           <Image
@@ -37,9 +37,13 @@ const Navbar = () => {
           <span>About Us</span>
           <span>Contact</span>
         </div>
-        <span className="bg-white border-[1.75px] border-white rounded-md  px-4 py-2 text-sm  font-medium hover:bg-white/5 transition-colors duration-300 hover:!text-white !text-text-inv-high-drk hidden sm:inline cursor-pointer">
+        <motion.div
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.8 }}
+          className="bg-white border-[1.75px] border-white rounded-md  px-4 py-2 text-sm  font-medium hover:bg-white/5 transition-colors duration-300 hover:!text-white !text-text-inv-high-drk hidden sm:block cursor-pointer select-none w-full max-w-20 text-center"
+        >
           Login
-        </span>
+        </motion.div>
         <motion.div
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.8 }}
